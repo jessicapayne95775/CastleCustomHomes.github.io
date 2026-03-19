@@ -152,7 +152,7 @@
 }
 .process-step { background: var(--dark); padding: clamp(28px,4vw,52px) clamp(18px,2.5vw,36px); transition: background .3s; }
 .process-step:hover { background: #252320; }
-.process-step-num   { font-family: var(--font-serif); font-size: clamp(44px,6vw,76px); font-weight: 300; font-style: italic; color: rgba(168,33,58,.2); line-height: 1; margin-bottom: 18px; user-select: none; }
+.process-step-num   { font-family: var(--font-serif); font-size: clamp(44px,6vw,76px); font-weight: 300; font-style: italic; color: var(--crimson-light); line-height: 1; margin-bottom: 18px; user-select: none; }
 .process-step-title { font-family: var(--font-serif); font-size: clamp(17px,1.9vw,22px); font-weight: 400; color: var(--white); margin-bottom: 12px; line-height: 1.25; }
 .process-step-desc  { font-size: clamp(12px,1.1vw,14px); font-weight: 300; line-height: 1.75; color: var(--warm-gray); }
 

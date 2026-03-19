@@ -28,7 +28,7 @@
       <ul class="overlay-menu">
         <li class="overlay-item">
           <div class="overlay-item-header">
-            <span class="overlay-link">Build With Us</span>
+            <a class="overlay-link" href="#" onclick="toggleSub(this.parentElement.querySelector('.overlay-toggle')); return false;">Build With Us</a>
             <button class="overlay-toggle" aria-label="Expand" onclick="toggleSub(this)">+</button>
           </div>
           <ul class="sub-menu">
@@ -44,29 +44,29 @@
         </li>
         <li class="overlay-item">
           <div class="overlay-item-header">
-            <span class="overlay-link">For Sale</span>
+            <a class="overlay-link" href="#" onclick="toggleSub(this.parentElement.querySelector('.overlay-toggle')); return false;">For Sale</a>
             <button class="overlay-toggle" aria-label="Expand" onclick="toggleSub(this)">+</button>
           </div>
           <ul class="sub-menu">
             <li><a href="for-sale.html" onclick="closeNav()">Available Homes</a></li>
-            <li><a href="for-sale.html" onclick="closeNav()">Build to Suit</a></li>
+            <li><a href="lots.html" onclick="closeNav()">Lots</a></li>
           </ul>
         </li>
         <li class="overlay-item">
           <div class="overlay-item-header">
-            <span class="overlay-link">About</span>
+            <a class="overlay-link" href="#" onclick="toggleSub(this.parentElement.querySelector('.overlay-toggle')); return false;">About</a>
             <button class="overlay-toggle" aria-label="Expand" onclick="toggleSub(this)">+</button>
           </div>
           <ul class="sub-menu">
             <li><a href="about.html" onclick="closeNav()">Meet the Team</a></li>
             <li><a href="our-story.html" onclick="closeNav()">Our Story</a></li>
-            <li><a href="about.html" onclick="closeNav()">Community</a></li>
-            <li><a href="about.html" onclick="closeNav()">Our Partners</a></li>
+            <li><a href="community.html" onclick="closeNav()">Community</a></li>
+            <li><a href="partners.html" onclick="closeNav()">Our Partners</a></li>
           </ul>
         </li>
         <li class="overlay-item">
           <div class="overlay-item-header">
-            <span class="overlay-link">Financing</span>
+            <a class="overlay-link" href="#" onclick="toggleSub(this.parentElement.querySelector('.overlay-toggle')); return false;">Financing</a>
             <button class="overlay-toggle" aria-label="Expand" onclick="toggleSub(this)">+</button>
           </div>
           <ul class="sub-menu">
@@ -138,6 +138,19 @@
       <div class="card reveal"><div class="card-num">—</div><h3>Twin Falls</h3><p>Our home base and the heart of our work. We know Twin Falls inside and out—the neighborhoods, the codes, the landscape.</p></div>
       <div class="card reveal reveal-delay-1"><div class="card-num">—</div><h3>Surrounding Communities</h3><p>We build throughout the Magic Valley including Kimberly, Buhl, Filer, Gooding, and surrounding rural areas.</p></div>
       <div class="card reveal reveal-delay-2"><div class="card-num">—</div><h3>Rural & Acreage Lots</h3><p>Have a larger piece of land? We have experience with acreage builds, well and septic systems, and rural site development.</p></div>
+    </div>
+  </div>
+
+  <div class="cta-band">
+    <div class="cta-image" style="background-image:url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=900&q=80');background-size:cover;background-position:center;"></div>
+    <div class="cta-content">
+      <p class="section-eyebrow" style="color:var(--crimson-light);">Ready to Build?</p>
+      <h2 class="section-title light" style="margin-bottom:20px;">Your Land,<br>Our <em>Expertise</em></h2>
+      <p class="cta-body">Already have a lot picked out? Let's talk about what we can build on it — no obligation.</p>
+      <div class="cta-actions">
+        <a href="contact.html" class="btn-primary">Get In Touch</a>
+        <a href="tel:2083091547" class="btn-outline-light">Call (208) 309-1547</a>
+      </div>
     </div>
   </div>
 
