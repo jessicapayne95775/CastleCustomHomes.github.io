@@ -13,14 +13,16 @@
   <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="css/home.css">
   <link rel="stylesheet" href="css/testimonials.css">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+  <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
 </head>
 <body data-nav-style="hero">
 
   <!-- ── Navigation ── -->
   <nav class="site-nav" id="main-nav">
-    <a href="index.html" class="nav-logo">
-      Castle<span class="apostrophe">'</span>s Custom Homes
-    </a>
+    <a href="index.html" class="nav-logo"><img loading="lazy" src="assets/images/LogoWhite.png" alt="Castle's Custom Homes Logo"></a>
     <div class="nav-right">
       <a href="tel:2083091547" class="nav-phone">(208) 309-1547</a>
       <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
@@ -95,9 +97,9 @@
         <div>
           <p class="overlay-contact-label">Follow Us</p>
           <div class="overlay-socials">
-            <a href="https://instagram.com/castlescustomhomes" class="overlay-social" target="_blank">IG</a>
-            <a href="https://facebook.com/Castles-Custom-Homes-271304149964379" class="overlay-social" target="_blank">FB</a>
-            <a href="https://twitter.com/castlescustom" class="overlay-social" target="_blank">TW</a>
+            <a href="https://instagram.com/castlescustomhomes" class="overlay-social" target="_blank" rel="noopener noreferrer">IG</a>
+            <a href="https://facebook.com/Castles-Custom-Homes-271304149964379" class="overlay-social" target="_blank" rel="noopener noreferrer">FB</a>
+            <a href="https://twitter.com/castlescustom" class="overlay-social" target="_blank" rel="noopener noreferrer">TW</a>
           </div>
         </div>
       </div>
@@ -138,7 +140,7 @@
     </div>
     <div class="services-grid">
       <a href="pages/residential.html" class="service-card reveal">
-        <div class="service-card-bg" style="background-image:url('assets/images/customWork/exterior3.png')"></div>
+        <div class="service-card-bg" style="background-image:url('assets/images/customWork/1423-sierra-exterior-2-twilight.jpg')"></div>
         <div class="service-card-overlay"></div>
         <div class="service-card-content">
           <p class="service-num">01</p>
@@ -148,7 +150,7 @@
         </div>
       </a>
       <a href="pages/your-lot.html" class="service-card reveal reveal-delay-1">
-        <div class="service-card-bg" style="background-image:url('assets/images/customWork/outside.png')"></div>
+        <div class="service-card-bg" style="background-image:url('assets/images/customWork/1266-crestview-exterior-1-twilight.JPG')"></div>
         <div class="service-card-overlay"></div>
         <div class="service-card-content">
           <p class="service-num">02</p>
@@ -158,7 +160,7 @@
         </div>
       </a>
       <a href="pages/remodel.html" class="service-card reveal reveal-delay-2">
-        <div class="service-card-bg" style="background-image:url('assets/images/customWork/CustomKitchen.avif')"></div>
+        <div class="service-card-bg" style="background-image:url('assets/images/customWork/1266-crestview-kitchen-1.jpg')"></div>
         <div class="service-card-overlay"></div>
         <div class="service-card-content">
           <p class="service-num">03</p>
@@ -174,14 +176,14 @@
   <div class="about-split">
     <div class="about-portraits">
       <div class="about-portrait">
-        <img src="assets/images/people/kyleCastle.png" alt="Kyle Castle, Owner">
+        <img loading="lazy" src="assets/images/people/kyleCastle.png" alt="Kyle Castle, Owner">
         <div class="about-portrait-caption">
           <p class="about-portrait-name">Kyle Castle</p>
           <p class="about-portrait-title">Owner</p>
         </div>
       </div>
       <div class="about-portrait">
-        <img src="assets/images/people/tammyCastle.png" alt="Tammy Castle, Vice President">
+        <img loading="lazy" src="assets/images/people/tammyCastle.png" alt="Tammy Castle, Vice President">
         <div class="about-portrait-caption">
           <p class="about-portrait-name">Tammy Castle</p>
           <p class="about-portrait-title">Vice President</p>
@@ -224,11 +226,11 @@
       <a href="pages/gallery.html" class="btn-ghost">View Full Gallery</a>
     </div>
     <div class="gallery-grid">
-      <div class="gallery-item"><img src="assets/images/customWork/exterior4.png" alt="Custom home exterior"></div>
-      <div class="gallery-item"><img src="assets/images/customWork/CustomKitchen.avif" alt="Kitchen interior"></div>
-      <div class="gallery-item"><img src="assets/images/customWork/bonusRoom.png" alt="Living room"></div>
-      <div class="gallery-item"><img src="assets/images/customWork/gallaryExterior.avif" alt="Luxury home front"></div>
-      <div class="gallery-item"><img src="assets/images/customWork/exterior2.png" alt="Home exterior"></div>
+      <div class="gallery-item"><img loading="lazy" src="assets/images/customWork/503-rosewood-exterior-1-twilight.jpg" alt="Custom home exterior"></div>
+      <div class="gallery-item"><img loading="lazy" src="assets/images/customWork/501-rosewood-kitchen-1.jpg" alt="Kitchen interior"></div>
+      <div class="gallery-item"><img loading="lazy" src="assets/images/customWork/501-rosewood-living-room-1.jpg" alt="Living room"></div>
+      <div class="gallery-item"><img loading="lazy" src="assets/images/customWork/1266-crestview-exterior-5-twilight.jpg" alt="Luxury home front"></div>
+      <div class="gallery-item"><img loading="lazy" src="assets/images/customWork/hagerman-new-build-exterior-2.jpg" alt="Home exterior"></div>
     </div>
   </section>
 
@@ -242,15 +244,21 @@
            JS reads these and re-paginates dynamically based on screen size.
            To add more reviews: copy a .testimonial-card block and add it here. -->
       <div id="t-card-pool" style="display:none;">
-        <div class="testimonial-card"><span class="t-rating">5/5</span><p class="testimonial-text">Working with Kyle and Tammy was an absolute pleasure. They were transparent throughout the entire build and the quality of our home exceeded every expectation.</p><div class="testimonial-divider"></div><p class="testimonial-author">The Henderson Family</p><p class="testimonial-location">Twin Falls, Idaho</p></div>
-        <div class="testimonial-card"><span class="t-rating">5/5</span><p class="testimonial-text">Castle's built our commercial space on time and on budget. As fellow small business owners, Kyle and Tammy truly understood what we needed and delivered perfectly.</p><div class="testimonial-divider"></div><p class="testimonial-author">James &amp; Carla Merritt</p><p class="testimonial-location">Magic Valley, Idaho</p></div>
-        <div class="testimonial-card"><span class="t-rating">4.8/5</span><p class="testimonial-text">From our first meeting to move-in day, we felt like we were building with family. The process was seamless and our home is everything we dreamed it would be.</p><div class="testimonial-divider"></div><p class="testimonial-author">The Ramirez Family</p><p class="testimonial-location">Twin Falls, Idaho</p></div>
-        <div class="testimonial-card"><span class="t-rating">5/5</span><p class="testimonial-text">Kyle walked us through every decision with patience and expertise. We never felt rushed or pressured, and the finished home is beyond what we imagined possible.</p><div class="testimonial-divider"></div><p class="testimonial-author">The Calloway Family</p><p class="testimonial-location">Kimberly, Idaho</p></div>
-        <div class="testimonial-card"><span class="t-rating">5/5</span><p class="testimonial-text">We built on our own lot outside of Buhl and Castle's handled everything — permitting, site prep, the whole process. Kyle's communication was outstanding start to finish.</p><div class="testimonial-divider"></div><p class="testimonial-author">Steve &amp; Dana Whitfield</p><p class="testimonial-location">Buhl, Idaho</p></div>
-        <div class="testimonial-card"><span class="t-rating">4.9/5</span><p class="testimonial-text">Tammy made the financing side of our build so easy to understand. She connected us with the right lender and walked us through every option without any pressure.</p><div class="testimonial-divider"></div><p class="testimonial-author">The Okafor Family</p><p class="testimonial-location">Twin Falls, Idaho</p></div>
-        <div class="testimonial-card"><span class="t-rating">5/5</span><p class="testimonial-text">We did a full kitchen and master bath remodel with Castle's and couldn't be happier. The craftsmanship is exceptional and they finished ahead of schedule.</p><div class="testimonial-divider"></div><p class="testimonial-author">Pam &amp; Rick Sorenson</p><p class="testimonial-location">Twin Falls, Idaho</p></div>
-        <div class="testimonial-card"><span class="t-rating">4.7/5</span><p class="testimonial-text">As a first-time custom home buyer, I had a lot of questions. Kyle and Tammy answered every single one and made sure I felt confident in every choice we made together.</p><div class="testimonial-divider"></div><p class="testimonial-author">Lindsey Marchetti</p><p class="testimonial-location">Filer, Idaho</p></div>
-        <div class="testimonial-card"><span class="t-rating">5/5</span><p class="testimonial-text">Castle's built our dental office and the result is stunning. They understood our functional needs perfectly and delivered a space that impresses every patient who walks in.</p><div class="testimonial-divider"></div><p class="testimonial-author">Dr. Aaron &amp; Lisa Kimball</p><p class="testimonial-location">Magic Valley, Idaho</p></div>
+        <div class="testimonial-card"><span class="t-rating">5/5</span><p class="testimonial-text">Our experience building with Castle's was easy and comfortable. Kyle and Tammy were there every step of the way from pre-approval to closing and beyond. They let us do some work ourselves to maximize quality within our budget. The custom cabinets—mocha kitchen with stunning detail and custom gray master bath—really pull the house together. Everyone who visits compliments them. We wouldn't trust any other builder and highly recommend Castle's!</p><div class="testimonial-divider"></div><p class="testimonial-author">Alisah Lierman &amp; Cody Baird</p><p class="testimonial-location">Twin Falls, Idaho</p></div>
+        <div class="testimonial-card"><span class="t-rating">5/5</span><p class="testimonial-text">After 30 years of marriage and living in four different homes, this was our very first new build—and it went smoothly from day one! Any changes we wanted, from floor plan to colors, were met with an "okay" and a smile. Everyone on the project was knowledgeable and professional. Thank you Castle's Custom Homes. We LOVE our new home!</p><div class="testimonial-divider"></div><p class="testimonial-author">The Cenarrusa Family</p><p class="testimonial-location">Carrey, Idaho</p></div>
+        <div class="testimonial-card"><span class="t-rating">5/5</span><p class="testimonial-text">What an amazing, fun home building experience! Kyle and Tammy took our plans and ideas and turned them into more than we could have imagined. Their friendliness, attention to detail, and commitment to highest quality standards set them apart. Kyle was onsite most of the time—not typical of many builders. They stayed within budget despite this tough market. Building with Castle's was one of the best things we've done. We LOVE our new home!</p><div class="testimonial-divider"></div><p class="testimonial-author">Marc Baisch &amp; Carey Shimada</p><p class="testimonial-location">Twin Falls, Idaho</p></div>
+        <div class="testimonial-card"><span class="t-rating">5/5</span><p class="testimonial-text">We absolutely LOVE our new home! From the beginning, Kyle and Tammy showcased professionalism and genuine commitment to our vision. Kyle was onsite nearly every day, meticulously inspecting quality and schedule. Their outstanding craftsmanship and attention to detail were evident in every aspect. They incorporated our ideas and made adjustments to ensure the final result was exactly what we envisioned. Three years later, they remain very responsive. Their expertise, integrity, and passion truly set them apart!</p><div class="testimonial-divider"></div><p class="testimonial-author">The Degn Family</p><p class="testimonial-location">Twin Falls, Idaho</p></div>
+        <div class="testimonial-card"><span class="t-rating">4.9/5</span><p class="testimonial-text">We fell in love with a Castle's home at the Parade of Homes and knew we found our builder. The design, attention to detail, and quality workmanship were exceptional. Kyle and Tammy were always available to listen, answer questions, and make suggestions. They were onsite often checking progress and quality. They were responsive to any issues and worked with excellent subcontractors. Our timeline and costs stayed in line with the proposal. Our home is beautiful, built with quality, and we love it!</p><div class="testimonial-divider"></div><p class="testimonial-author">Steve &amp; Debbie Foster</p><p class="testimonial-location">Twin Falls, Idaho</p></div>
+        <div class="testimonial-card"><span class="t-rating">5/5</span><p class="testimonial-text">After meeting Kyle and Tammy at the Parade of Homes and talking to five other builders, hiring Castle's was the best decision we ever made! Their integrity, expertise, and attention to detail are top notch. They transformed our one-of-a-kind home plan drawn on graph paper into something much better than we imagined. They responded within hours every single time, asking our opinion on each detail. We didn't just get our dream home—we made friends for a lifetime!</p><div class="testimonial-divider"></div><p class="testimonial-author">The Dietz Family</p><p class="testimonial-location">Twin Falls, Idaho</p></div>
+        <div class="testimonial-card"><span class="t-rating">4.9/5</span><p class="testimonial-text">Working with Castle's was an excellent experience. Kyle and Tammy were very knowledgeable and attentive to detail, always making themselves available throughout the entire construction process. They stand behind their work even after completion—something that's hard to find. I enjoyed working with them so much that two of my coworkers are now building with them too. I strongly recommend Castle's Custom Homes to anyone looking to build a new home!</p><div class="testimonial-divider"></div><p class="testimonial-author">J. Lowder</p><p class="testimonial-location">Twin Falls, Idaho</p></div>
+        <div class="testimonial-card"><span class="t-rating">5/5</span><p class="testimonial-text">From our initial consultation, Tammy and Kyle took the time to truly understand our vision and brought it to life with precision and care. They provided expert guidance every step of the way, offering valuable suggestions that improved both the functionality and aesthetics of our home. The team was always on time, respectful, and dedicated to maintaining the highest standards of craftsmanship. If you're looking for a builder who combines skill, reliability, and exceptional customer service, look no further than Castle's Custom Homes.</p><div class="testimonial-divider"></div><p class="testimonial-author">Mark &amp; Kortnie Kent</p><p class="testimonial-location">Twin Falls, Idaho</p></div>
+        <div class="testimonial-card"><span class="t-rating">5/5</span><p class="testimonial-text">We're absolutely thrilled with our Parade home built by Castle's! After five years, we continue to be in awe of the incredible design and craftsmanship. The attention to detail is unparalleled, and the quality of materials is top-notch. Tami and Kyle's vision exceeded all expectations. What truly sets them apart is their dedication to customer satisfaction—they're always available and go above and beyond to ensure every detail is perfect. We wholeheartedly recommend Castle's and continue to fall in love with our home every single day!</p><div class="testimonial-divider"></div><p class="testimonial-author">Jacey &amp; Chris</p><p class="testimonial-location">Magic Valley, Idaho</p></div>
+        <div class="testimonial-card"><span class="t-rating">4.9/5</span><p class="testimonial-text">After seeing our daughter's beautiful Castle Custom Home, we spent two years visiting the Parade of Homes seeking out their work. Kyle's attention to detail and craftsmanship is unmatched. Tammy spent hours with me picking out fixtures, flooring, and colors—making it enjoyable every step of the way. Kyle thoughtfully designed window placement to take full advantage of our river view. Their integrity, professionalism, and common sense suggestions were appreciated. We would build again with Castle Custom Homes!</p><div class="testimonial-divider"></div><p class="testimonial-author">The Musser Family</p><p class="testimonial-location">Twin Falls, Idaho</p></div>
+        <div class="testimonial-card"><span class="t-rating">5/5</span><p class="testimonial-text">We moved to Twin Falls and were blessed to find a beautiful home built by Castle's Custom Homes. We absolutely love our new home! The quality and workmanship Kyle put into our home is impeccable. Kyle and Tammy really know how to utilize every inch with storage and shelving. From the color schemes to the woodwork and floor plan—they are amazingly talented and creative, not to mention super sweet, nice, and easy to work with. They don't disappoint when designing and building beautiful homes!</p><div class="testimonial-divider"></div><p class="testimonial-author">Opie &amp; Gila Kelley</p><p class="testimonial-location">Twin Falls, Idaho</p></div>
+        <div class="testimonial-card"><span class="t-rating">4.9/5</span><p class="testimonial-text">We are very pleased with our Castle Custom Home. Kyle and Tammy were wonderful to work with and guided us through the customization process. We've received many compliments on the interior and exterior from friends and neighbors—a total stranger even knocked on our door asking for the name of our builder! After a year and a half in our home, Kyle continues to check in with us. Outstanding service and craftsmanship!</p><div class="testimonial-divider"></div><p class="testimonial-author">Doug &amp; Susie Stuhr</p><p class="testimonial-location">Hailey, Idaho</p></div>
+        <div class="testimonial-card"><span class="t-rating">5/5</span><p class="testimonial-text">We would definitely recommend working with Kyle and Tammy Castle! They are so easy and fun to work with and listen to what you're wanting for your custom home. Kyle is excellent with building ideas and Tammy is excellent at helping with interior and exterior design. They combine their expertise to make it the perfect home for you. We've been in our home for 4 years, still love it, and have no regrets about choosing Castle Custom Homes!</p><div class="testimonial-divider"></div><p class="testimonial-author">Terry &amp; Dee Walls</p><p class="testimonial-location">Twin Falls, Idaho</p></div>
+        <div class="testimonial-card"><span class="t-rating">5/5</span><p class="testimonial-text">I give them 5 out of 5 stars!</p><div class="testimonial-divider"></div><p class="testimonial-author">Charlie Laub</p><p class="testimonial-location">Twin Falls, Idaho</p></div>
+        <div class="testimonial-card"><span class="t-rating">5/5</span><p class="testimonial-text">Working with the Castle's was fantastic! They are very good at listening and they want continual progress! They are great at communication and very easy to talk to! We loved meeting with them and discussing our dreams and goals!</p><div class="testimonial-divider"></div><p class="testimonial-author">Bradley &amp; Jessica Payne</p><p class="testimonial-location">Twin Falls, Idaho</p></div>
       </div>
 
       <!-- JS builds .t-slides + .t-page wrappers dynamically into this -->
@@ -287,7 +295,7 @@
 
   <!-- ── CTA Band ── -->
   <div class="cta-band">
-    <div class="cta-image" style="background-image:url('assets/images/customWork/entryStairway.png');background-size:cover;background-position:center;"></div>
+    <div class="cta-image" style="background-image:url('assets/images/customWork/1266-crestview-living-room-3.jpg');background-size:cover;background-position:center;"></div>
     <div class="cta-content">
       <p class="section-eyebrow" style="color:var(--crimson-light);">Ready to Build?</p>
       <h2 class="section-title light" style="margin-bottom:20px;">Let's Start Your <em>Story</em></h2>
@@ -310,9 +318,9 @@
         <p class="footer-brand">Castle<span>'</span>s Custom Homes</p>
         <p class="footer-tagline">Quality builders serving Twin Falls and the Magic Valley, Idaho. Family-owned, locally rooted, community proud.</p>
         <div class="footer-socials">
-          <a href="https://instagram.com/castlescustomhomes" class="footer-social" target="_blank">IG</a>
-          <a href="https://facebook.com/Castles-Custom-Homes-271304149964379" class="footer-social" target="_blank">FB</a>
-          <a href="https://twitter.com/castlescustom" class="footer-social" target="_blank">TW</a>
+          <a href="https://instagram.com/castlescustomhomes" class="footer-social" target="_blank" rel="noopener noreferrer">IG</a>
+          <a href="https://facebook.com/Castles-Custom-Homes-271304149964379" class="footer-social" target="_blank" rel="noopener noreferrer">FB</a>
+          <a href="https://twitter.com/castlescustom" class="footer-social" target="_blank" rel="noopener noreferrer">TW</a>
         </div>
       </div>
       <div>
@@ -339,7 +347,7 @@
         <ul class="footer-links">
           <li><a href="pages/financing.html">Mortgage Calculator</a></li>
           <li><a href="pages/contact.html">Get a Quote</a></li>
-          <li><a href="http://www.castlescornercorp.com" target="_blank">Castle's Corner Stores</a></li>
+          <li><a href="http://www.castlescornercorp.com" target="_blank" rel="noopener noreferrer">Castle's Corner Stores</a></li>
           <li><a href="tel:2083091547">(208) 309-1547</a></li>
         </ul>
       </div>

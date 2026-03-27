@@ -1,0 +1,50 @@
+# Python temporary files
+*.py
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.json.bak
+*.map
+
+# Environment and sensitive files
+.env
+.env.local
+.env.production
+*.key
+*.pem
+config.json
+secrets.json
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build artifacts
+dist/
+build/
+*.min.css
+*.min.js
+
+# Node modules (if using npm in future)
+node_modules/
+package-lock.json
+
+# Image processing
+*.ai
+*.psd
+*.sketch
